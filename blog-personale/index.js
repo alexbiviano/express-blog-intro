@@ -24,25 +24,25 @@ app.get('/bacheca', (req, res) => {
         {
             title: 'Cracker alla Barbabietola',
             content: 'Dei Cracker diversi dal solito',
-            image: 'imgs/cracker_barbabietola.jpeg',
+            image: 'http://localhost:3000./imgs/cracker_barbabietola.jpeg',
             tags: ['barbabietola', 'semi', 'uova'],
         },
         {
             title: 'Pane Fritto',
             content: 'Quando non hai nulla in casa ma hai voglia di dolce',
-            image: 'imgs/pane_fritto_dolce.jpeg',
+            image: 'http://localhost:3000./imgs/pane_fritto_dolce.jpeg',
             tags: ['zucchero', 'pane', 'olio di semi'],
         },
         {
             title: 'Pasta alla Barbabietola',
             content: 'Quando vuoi stupire tutti con un piatto eccentrico',
-            image: 'imgs/pasta_barbabietola.jpeg',
+            image: 'http://localhost:3000./imgs/pasta_barbabietola.jpeg',
             tags: ['pasta', 'barbabietole', 'condimento a piacere'],
         },
         {
             title: 'Torta Paesana',
             content: 'un dolce storico che mantiene le tradizioni',
-            image: 'imgs/torta_paesana.jpeg',
+            image: 'http://localhost:3000./imgs/torta_paesana.jpeg',
             tags: ['burro', 'zucchero', 'uova', 'cioccolato', 'semi'],
         },
     ];
